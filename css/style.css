@@ -116,17 +116,9 @@ footer .footer-link-one:focus {
 /* Background pattern */
 body::before {
   content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  background-image: repeating-linear-gradient(
-    -65deg,
-    #f6f6f6 0 125px,
-    #ececec 125px 250px
-  );
+  position: fixed;
+  inset: 0;
+  background-image: repeating-linear-gradient(-65deg, #f6f6f6 0 125px, #ececec 125px 250px);
   z-index: -2;
   pointer-events: none;
-  overflow-x: hidden;
 }
