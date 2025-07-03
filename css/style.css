@@ -18,6 +18,11 @@
   --bs-navbar-color: var(--clr-white);
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 /* Layout helpers */
 .section-dark {
   background-color: var(--clr-black);
