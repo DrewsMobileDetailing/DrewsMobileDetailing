@@ -15,10 +15,10 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch((err) => console.error("JSON fetch error:", err));
 });
 
-/* ---------- Helpers ---------- */
+/* Helpers */
 const shuffle = (arr) => [...arr].sort(() => Math.random() - 0.5);
 
-/* ---------- Gallery ---------- */
+/* Gallery */
 function buildGallery(cars, limit = 3) {
   const grid = document.getElementById("galleryGrid");
   if (!grid) return;
@@ -39,7 +39,7 @@ function buildGallery(cars, limit = 3) {
     });
 }
 
-/* ---------- Reviews ---------- */
+/* Reviews */
 function buildReviews(reviews, limit = 4) {
   const reviewRow = document.getElementById("reviewsGrid");
   if (!reviewRow) return;
@@ -69,7 +69,7 @@ function buildReviews(reviews, limit = 4) {
     });
 }
 
-/* ---------- Pricing ---------- */
+/* Pricing */
 function buildPricing(services) {
   const grid = document.getElementById("pricingGrid");
   if (!grid) return;
@@ -78,14 +78,20 @@ function buildPricing(services) {
     const col = document.createElement("div");
     col.className = "col-sm-6 col-lg-4";
 
-    const bodyHtml = Array.isArray(prices)
-      ? `<ul class="list-unstyled small mb-0">${prices
-          .map(
-            (p) =>
-              `<li class="d-flex justify-content-between"><span>${p.vehicle}</span><span>$${p.price}</span></li>`
-          )
-          .join("")}</ul>`
-      : `<p class="display-6 fw-bold mb-0">$${price}</p>`;
+    let bodyHtml = "";
+
+    if (Array.isArray(prices)) {
+      bodyHtml = `<ul class="list-unstyled small mb-0">${prices
+        .map(
+          (p) =>
+            `<li class="d-flex justify-content-between"><span>${p.vehicle}</span><span>$${p.price}</span></li>`
+        )
+        .join("")}</ul>`;
+    } else if (typeof price === "number") {
+      bodyHtml = `<p class="display-6 fw-bold mb-0">$${price}</p>`;
+    } else if (typeof price === "string") {
+      bodyHtml = `<p class="fw-bold text-primary mb-0">${price}</p>`;
+    }
 
     col.innerHTML = `
       <div class="card h-100 shadow-sm text-center lift-on-hover">
@@ -99,7 +105,8 @@ function buildPricing(services) {
   });
 }
 
-/* ---------- Banner ---------- */
+
+/* Banner */
 function buildBanner(cars, selector, limit = 6) {
   const div = document.querySelector(selector);
   if (!div) return;

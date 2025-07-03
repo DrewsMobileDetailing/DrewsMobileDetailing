@@ -8,6 +8,23 @@
         { "vehicle": "SUV", "price": 300 },
         { "vehicle": "Truck", "price": 285 },
         { "vehicle": "Sedan", "price": 275 }
+      ],
+      "includes": [
+        "Gentle exterior hand wash",
+        "Windows cleaned (in & out)",
+        "Clean vinyl/leather",
+        "Spray (sealant) wax exterior",
+        "Complete interior vacuum",
+        "Vacuum trunk",
+        "Shampoo interior carpets & condition any leather",
+        "Clean all cracks and crevices",
+        "Deep clean of all doors",
+        "All cup holders and plastics left with a dirt and grime free finish",
+        "Clean wheels, tires, and mats",
+        "Apply tire dressing",
+        "Apply dressing to interior panels",
+        "Bug removal all over car",
+        "Steam clean entire interior for 100% germ free finish"
       ]
     },
     {
@@ -26,12 +43,27 @@
       "prices": [
         { "vehicle": "Sedan", "price": 65 },
         { "vehicle": "All Other Vehicles", "price": 75 }
+      ],
+      "includes": [
+        "Gentle exterior hand wash",
+        "Windows cleaned (Exterior)",
+        "Hand dry",
+        "Tire dressing",
+        "Full 3-month carnauba hand wax"
       ]
     },
     {
       "id": "paint_correction",
       "name": "Paint Correction (1-Step)",
-      "price": 450
+      "price": 450,
+      "includes": [
+        "Complete exterior detail",
+        "Clay-bar (entire paint of the vehicle)",
+        "Iron remover (on all paint and rims)",
+        "Complete one-step paint correction and polish (removes 45–65% of paint fading, scratches, and damage)",
+        "Tire shine",
+        "3-month carnauba wax sealant to protect the paint"
+      ]
     },
     {
       "id": "ceramic_coating_3yr",
@@ -57,6 +89,21 @@
       "id": "clay_bar",
       "name": "Clay Bar (Full Car)",
       "price": 75
+    },
+    {
+      "id": "fleet_services",
+      "name": "Business and Government Fleets",
+      "price": "Pricing? - Call for more information"
+    },
+    {
+      "id": "boats",
+      "name": "Boats",
+      "price": "Pricing? - Call for more information"
+    },
+    {
+      "id": "aircraft",
+      "name": "Aircraft",
+      "price": "Pricing? - Call for more information"
     }
   ]
 }
