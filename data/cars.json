@@ -1,0 +1,94 @@
+{
+  "cars": [
+    {
+      "src": "../images/cars/SideViewRedCar.jpg"
+    },
+    {
+      "src": "../images/cars/BlueCarWithSoapCropped.jpg"
+    },
+    {
+      "src": "../images/cars/SideBlackCarDoorsOpen.jpg"
+    },
+    {
+      "src": "../images/cars/RedCarWithSoap.jpg"
+    },
+    {
+      "src": "../images/cars/FrontOnPurpleCarCropped.jpg"
+    },
+    {
+      "src": "../images/cars/FrontRedCarWBlackStripe.jpg"
+    },
+    {
+      "src": "../images/cars/SideOfLargeCarDoorsOpen.jpg"
+    },
+    {
+      "src": "../images/cars/TrunkOpenOfGreyCar.jpg"
+    },
+    {
+      "src": "../images/cars/vangood.jpg"
+    },
+    {
+      "src": "../images/cars/BackOfCar.jpg"
+    },
+    {
+      "src": "../images/cars/CleanCarFloor.jpg"
+    },
+    {
+      "src": "../images/cars/FrontOfBlackLexus.jpg"
+    },
+    {
+      "src": "../images/cars/RightSideOfBlackCarClosed.jpg"
+    },
+    {
+      "src": "../images/cars/soapyblackcar1.png"
+    },
+    {
+      "src": "../images/cars/threewheel1.png"
+    },
+    {
+      "src": "../images/cars/TrunkOpenOfCar.jpg"
+    },
+    {
+      "src": "../images/cars/VacuumingSeat.jpg"
+    },
+    {
+      "src": "../images/cars/WheelOfRedCar.jpg"
+    },
+    {
+      "src": "../images/cars/blackSuper.jpg"
+    },
+    {
+      "src": "../images/cars/insideMat.jpg"
+    },
+    {
+      "src": "../images/cars/drewWagon.jpg"
+    },
+    {
+      "src": "../images/cars/policeFleet.jpg"
+    },
+    {
+      "src": "../images/cars/greyCop.jpg"
+    },
+    {
+      "src": "../images/cars/soapCop.jpg"
+    },
+    {
+      "src": "../images/cars/soapSuper.jpg"
+    },
+    {
+      "src": "../images/cars/blackCopCar.jpg"
+    },
+    {
+      "src": "../images/cars/SoapTruck.jpg"
+    },
+    {
+      "src": "../images/cars/whiteTruck.jpg"
+    },
+    {
+      "src": "../images/cars/redBike.jpg"
+    },
+    {
+      "src": "../images/cars/soapyRed.jpg"
+    }
+  ]
+}

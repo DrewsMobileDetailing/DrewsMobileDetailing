@@ -1,0 +1,62 @@
+{
+  "services": [
+    {
+      "id": "int_ext_detail",
+      "name": "Interior & Exterior Detailing",
+      "prices": [
+        { "vehicle": "Full Minivan", "price": 330 },
+        { "vehicle": "SUV", "price": 300 },
+        { "vehicle": "Truck", "price": 285 },
+        { "vehicle": "Sedan", "price": 275 }
+      ]
+    },
+    {
+      "id": "interior_only",
+      "name": "Interior Only Detailing",
+      "prices": [
+        { "vehicle": "Full Minivan", "price": 295 },
+        { "vehicle": "SUV", "price": 265 },
+        { "vehicle": "Truck", "price": 250 },
+        { "vehicle": "Sedan", "price": 240 }
+      ]
+    },
+    {
+      "id": "exterior_wash",
+      "name": "Exterior Wash Only",
+      "prices": [
+        { "vehicle": "Sedan", "price": 65 },
+        { "vehicle": "All Other Vehicles", "price": 75 }
+      ]
+    },
+    {
+      "id": "paint_correction",
+      "name": "Paint Correction (1-Step)",
+      "price": 450
+    },
+    {
+      "id": "ceramic_coating_3yr",
+      "name": "Ceramic Coating (3-Year)",
+      "price": 650
+    },
+    {
+      "id": "ceramic_coating_5yr",
+      "name": "Ceramic Coating (5-Year)",
+      "price": 800
+    },
+    {
+      "id": "ceramic_coating_7yr",
+      "name": "Ceramic Coating (7-Year)",
+      "price": 950
+    },
+    {
+      "id": "engine_bay",
+      "name": "Engine Bay Cleaning",
+      "price": 50
+    },
+    {
+      "id": "clay_bar",
+      "name": "Clay Bar (Full Car)",
+      "price": 75
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+/* Universal hover lift */
+.lift-on-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.lift-on-hover:hover,
+.lift-on-hover:focus-within {
+  transform: translateY(-4px);
+  box-shadow: 0 0.75rem 1.25rem rgba(0 0 0 / 0.15);
+}
+
+/* Review card shadow */
+.review-card {
+  border: none;
+  box-shadow: 0 4px 10px rgba(0 0 0 / 0.1);
+}
+
+/* Gallery thumbnails */
+.gallery-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Ensure consistent grid height */
+#reviewsGrid,
+#galleryGrid {
+  min-height: 100%;
+}

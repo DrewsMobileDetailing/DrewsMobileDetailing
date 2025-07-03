@@ -1,0 +1,121 @@
+/* Bootstrap variable overrides */
+:root {
+  --bs-body-font-family: "Noto Sans", sans-serif;
+
+  /* Brand palette */
+  --clr-primary: #009edd;
+  --clr-primary-dark: #03647c;
+  --clr-black: #000;
+  --clr-white: #fcfcfc;
+
+  /* Bootstrap remapped */
+  --bs-body-bg: var(--clr-white);
+  --bs-body-color: var(--clr-black);
+  --bs-primary: var(--clr-primary);
+  --bs-primary-rgb: 0, 158, 221;
+  --bs-link-color: var(--clr-primary);
+  --bs-link-hover-color: var(--clr-primary-dark);
+  --bs-navbar-color: var(--clr-white);
+}
+
+/* Layout helpers */
+.section-dark {
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+  padding: 3rem 0;
+}
+
+/* Hero */
+.hero-header img {
+  width: 100%;
+  height: auto;
+}
+
+/* Navbar */
+.navbar-dark {
+  background-color: #000 !important;
+}
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+  color: #fff;
+}
+.navbar-dark .nav-link:hover,
+.navbar-dark .nav-link:focus,
+.navbar-dark .navbar-brand:hover {
+  color: var(--clr-primary);
+}
+
+/* pill-style active nav link */
+.nav-link.active {
+  background-color: var(--clr-primary);
+  color: #fff !important;
+  border-radius: 50rem;
+}
+
+.navbar.sticky-top {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5) !important;
+  z-index: 1050;
+  position: sticky !important;
+  top: 0;
+}
+
+/* Section titles */
+.section-title {
+  display: inline-block;
+  background: #000;
+  color: #fff !important;
+  padding: 0.35rem 1.25rem;
+  border-radius: 50rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* Buttons */
+.btn-primary {
+  background: var(--clr-primary);
+  border-color: var(--clr-primary);
+  color: var(--clr-white);
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background: var(--clr-primary-dark);
+  border-color: var(--clr-primary-dark);
+}
+
+/* Footer */
+footer {
+  position: relative;
+  box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.5);
+  z-index: 1040;
+}
+
+footer .footer-link {
+  font-size: 1.1rem;
+  color: #fcfcfc;
+  text-decoration: none;
+  transition: color 0.25s ease, text-shadow 0.25s ease;
+}
+footer .footer-link:hover,
+footer .footer-link:focus {
+  color: var(--clr-primary-10);
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.85), 0 0 8px var(--clr-primary);
+}
+
+footer .contact-block h5,
+footer .contact-block h6 {
+  font-size: 1.25rem;
+}
+
+/* Background pattern */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    -65deg,
+    #f6f6f6 0 125px,
+    #ececec 125px 250px
+  );
+  z-index: -2;
+  pointer-events: none;
+}
