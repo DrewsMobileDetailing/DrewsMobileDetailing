@@ -35,6 +35,20 @@
         { "vehicle": "SUV", "price": 265 },
         { "vehicle": "Truck", "price": 250 },
         { "vehicle": "Sedan", "price": 240 }
+      ],
+      "includes": [
+        "Windows cleaned (inside only)",
+        "Clean vinyl and leather surfaces",
+        "Complete interior vacuum",
+        "Vacuum trunk",
+        "Shampoo interior carpets",
+        "Condition any leather",
+        "Clean dash and center console",
+        "Clean all cracks and crevices",
+        "Deep clean of all doors",
+        "All cup holders and plastics left with a dirt and grime-free finish",
+        "Apply dressing to interior panels",
+        "Steam clean entire interior for a 100% germ-free finish"
       ]
     },
     {
@@ -68,42 +82,71 @@
     {
       "id": "ceramic_coating_3yr",
       "name": "Ceramic Coating (3-Year)",
-      "price": 650
+      "price": 650,
+      "includes": [
+        "Long-lasting paint protection for up to 3 years",
+        "Makes the car easier to clean",
+        "Enhances shine and shields paint from damage (UV, chemicals, etc.)"
+      ]
     },
     {
       "id": "ceramic_coating_5yr",
       "name": "Ceramic Coating (5-Year)",
-      "price": 800
+      "price": 800,
+      "includes": [
+        "Long-lasting paint protection for up to 5 years",
+        "Makes the car easier to clean",
+        "Enhances shine and shields paint from damage (UV, chemicals, etc.)"
+      ]
     },
     {
       "id": "ceramic_coating_7yr",
       "name": "Ceramic Coating (7-Year)",
-      "price": 950
+      "price": 950,
+      "includes": [
+        "Long-lasting paint protection for up to 7 years",
+        "Makes the car easier to clean",
+        "Enhances shine and shields paint from damage (UV, chemicals, etc.)"
+      ]
     },
     {
       "id": "engine_bay",
       "name": "Engine Bay Cleaning",
-      "price": 50
+      "price": 50,
+      "includes": [
+        "Deep cleans the engine area",
+        "Removes dirt, grease, and debris for a fresh look",
+        "Engine plastics dressed for a brand new shine"
+      ]
     },
     {
       "id": "clay_bar",
       "name": "Clay Bar (Full Car)",
-      "price": 75
+      "price": 75,
+      "includes": [
+        "Removes surface contaminants stuck to the paint",
+        "Leaves paint smooth and ready for polishing or coating"
+      ]
     },
     {
       "id": "fleet_services",
       "name": "Business and Government Fleets",
-      "price": "Pricing? - Call for more information"
+      "price": "Pricing – Call for more information"
     },
     {
       "id": "boats",
       "name": "Boats",
-      "price": "Pricing? - Call for more information"
+      "price": "Pricing – Call for more information"
     },
     {
       "id": "aircraft",
       "name": "Aircraft",
-      "price": "Pricing? - Call for more information"
+      "price": "Pricing – Call for more information"
+    },
+    {
+      "id": "motorcycles",
+      "name": "Motorcycles",
+      "price": 150
     }
   ]
 }
